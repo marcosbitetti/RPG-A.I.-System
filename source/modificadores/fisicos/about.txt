@@ -1,0 +1,13 @@
+Modificadores que afetam atributos fisicos.
+Velocidade, Forca, Resistencia e HP.
+
+A separação de pacotes sub-entende-se para
+melhor diferenciar os tipos de efeitos
+
+
+google translate ---------------------------------
+Modifiers that affect physical attributes.
+Speed, strength, resistance and HP.
+
+The separation of sub-package is meant to
+better differentiate the types of effects

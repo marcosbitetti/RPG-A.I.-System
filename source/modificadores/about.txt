@@ -1,0 +1,49 @@
+Sistema de classes para Modificadores de
+atributos.
+
+Aqui uma proposta bem, ambiciosa!
+Modificadores podem ser agregados direto
+as metatabelas de atributos, ou agregados
+a classes de efeitos, como Veneno e Magia,
+agregados a NPCs, e a qualquer elemento q
+altere atributos.
+
+Modificadores podem receber Modificadores!
+Como exemplo, o modificador de tempo, a ser
+agregado a um veneno! Para causar dano à um
+personagem a cada "n" segundos. Ou o modificador
+de proximidade, q atua numa explosão!
+
+Modificadores podem ser permanentes, temporarios
+ou instantâneos!!!
+Como o caso de modificadores de raça (permanentes)
+Venenos e amientes perigosos (temporarios)
+Explosões e atakes (Instantaneos)
+
+TODO: repensar, tem um erro de projeto feio nissu!
+
+google translator ---------------------------
+
+System of classes for Modifiers
+attributes.
+
+Here a good proposal, ambitious!
+Modifiers can be aggregated direct
+metatabelas of the attributes, or aggregates
+the classes of purposes, such as Venom and Magic,
+aggregates the NPCs, and any element q
+change attributes.
+
+Modifiers can receive changers!
+As an example, the modifier of time, to be
+added to a poison! To cause damage to a
+every character "n" seconds. Or the modifier
+proximity, q acts in an explosion!
+
+Modifiers can be permanent, temporary
+or snapshots!
+As the case of modifiers of race (permanent)
+Poisons and dangerous amientes (temporary)
+Explosions and Ataka (snapshots)
+
+TODO: rethink, is flawed by design nissu ugly!

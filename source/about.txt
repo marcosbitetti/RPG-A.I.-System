@@ -1,0 +1,31 @@
+Raiz do aplicativo.
+
+para rodar ( Linux, Windows, Mac ) :
+windows type: Lua main.lua
+Linux type: wine Lua main.lua
+Mac type: (coming son)
+
+as pastas aqui contidas possuem o sistema de classes
+para rodar o rpg lógico.
+A pasta connector contém elementos da API de conexão
+para o cliente.
+
+Arquivos:
+main.lua -> Exemplo de inicialização
+globals.lua -> Arquivo que chama TODAS as bibliotecas
+
+google translator ---------------------------
+
+Root of application.
+
+to run (Linux, Windows, Mac):
+Moon main.lua
+
+The folders contained herein have the class system
+to run rpg logical.
+The folder contains elements of the connector API connection
+for the customer.
+
+Archives:
+main.lua -> Sample startup
+globals.lua -> File that calls ALL libraries

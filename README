@@ -1,0 +1,20 @@
+(Brasilian portuguese only, Inglish coming soon)
+
+Implementação de inteligência artificial para sistemas informatizados.
+Originalmente desenvolvido para uso no projeto de game "Wild Witch".
+
+Este sistema visa ser uma camada de abstração entre a "engine" físico/gráfica e a implementação do sistema de RPG.</div><div>Sua arquitetura é genérica para se adaptar ao maior número possível de casos de uso.
+
+Usando um sistema de classes artificialmente implementado por terceiros na linguagem LUA o projeto permite uma ampla escalabilidade em todos os seus "nodes".
+
+Seus pontos de entrada e saída de informação estão separados à parte do núcleo lógico, visando assim aumentar a abstração e facilitar a implementação em uma "engine" hospedeira.
+
+Enjoy
+
+Idealizador/programador: Marcos Augusto Bitetti - 2008
+
+Dependências usadas no projeto:
+	simple class Lua implementation: http://class.luaforge.net/ 
+	suport to JSon comunication language: http://www.chipmunkav.com) 
+
+Licença Creative Commons

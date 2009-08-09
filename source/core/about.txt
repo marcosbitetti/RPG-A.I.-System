@@ -1,0 +1,19 @@
+Sistema de classes de nucleo.
+
+Aqui inclui classes de terceiros, responsáveis
+pela funcionalidade intrinseca do sistema, como
+a bibliotecla de Classes.
+
+E também o suporte a JSon, para permitir a
+comunicação portavel de dados entre aplicações
+
+google translator ---------------------------
+
+System of core classes.
+
+This includes classes of third parties responsible
+feature intrinsic to the system, as
+bibliotecla the Class.
+
+And also the support for JSON, to allow
+portable communication of data between applications

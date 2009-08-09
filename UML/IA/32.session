@@ -1,0 +1,13 @@
+window_sizes 1575 918 393 1182 700 82
+diagrams
+  active  classdiagram_ref 128002 // ia
+    1070 734 90 4 0 0
+end
+show_stereotypes
+selected classdiagram_ref 128002 // ia
+open
+  class_ref 128002 // Char
+  class_ref 128130 // Attributos
+  class_ref 129410 // Actor
+end
+end

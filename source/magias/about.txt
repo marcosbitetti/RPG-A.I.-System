@@ -1,0 +1,11 @@
+Sistema de classes para mágias.
+
+Estas classes são evocadas pelas classes actors e
+podem receber um numero infinito de modificadores.
+
+google translator ---------------------------
+
+System classes for magic.
+
+These classes are evoked by actors and classes
+can receive an infinite number of modifiers.s

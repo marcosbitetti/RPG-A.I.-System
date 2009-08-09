@@ -1,0 +1,15 @@
+Sistema de classes para gerenciar atributos.
+
+Os atributos são o coração do jogo.
+Definem poder do personagem e tambem sua
+vitalidade (zerala é deixar o jogador
+inconsciente).
+
+google translator ---------------------------
+
+System of classes to manage attributes.
+
+The attributes are the heart of the game.
+Can define the character and also his
+Vitality (zerala is to let the player
+unconscious).

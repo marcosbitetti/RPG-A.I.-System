@@ -1,0 +1,13 @@
+Sistema de classes para todos os atores em cena.
+Sendo eles, jogadores, NPCs, monstros e itens.
+
+Toda a base do funcionamento do game inicia-se pela
+classe Actor (actor.lua)
+
+google translator ---------------------------
+
+System of classes for all actors on the scene.
+Since them, players, NPCs, monsters and items.
+
+The whole basis of the functioning of the game will begin by
+Actor class (actor.lua)

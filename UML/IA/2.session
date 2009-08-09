@@ -1,0 +1,11 @@
+window_sizes 1200 840 300 900 640 82
+diagrams
+  active  classdiagram_ref 128002 // ia
+    894 684 100 4 0 0
+end
+show_stereotypes
+selected classdiagram_ref 128002 // ia
+open
+  classview_ref 128002 // classes
+end
+end

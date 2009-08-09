@@ -1,0 +1,11 @@
+window_sizes 1156 840 217 933 640 82
+diagrams
+  active  classdiagram_ref 128002 // ia
+    933 684 100 4 27 0
+end
+show_stereotypes
+selected class_ref 131963 // Sensor
+open
+  classview_ref 128002 // classes
+end
+end

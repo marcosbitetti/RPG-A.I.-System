@@ -1,0 +1,186 @@
+format 59
+
+classcanvas 128002 class_ref 128002 // Char
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 41 133 2000
+end
+classcanvas 128130 class_ref 128130 // Attributos
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 251 44 2000
+end
+classcanvas 128514 class_ref 128258 // Modificador
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 475 43 2000
+end
+note 128763 "Area é o menor fragmento de mapa.
+Ah ele se aplicam condicionais, modificadores, rules, danos e magias.
+
+Um ex.:
+Condicional: Sensor.<Distância> == 1 -- em cima do tile
+	então
+		chamar armadilha:
+	fimentão
+Armadilha é um agregador de dano
+
+Este componente é  qualquer área q possa ser atribuida num mapa qualquer, independente do seu tipo"
+  xyzwh 29 762 2000 206 252
+classcanvas 128770 class_ref 129410 // Actor
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 124 43 2000
+end
+classcanvas 129026 class_ref 129538 // Monster
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 37 43 2000
+end
+classcanvas 129410 class_ref 129666 // Magia
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 477 403 2000
+end
+classcanvas 129538 class_ref 129794 // Encanto
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 594 404 2000
+end
+note 129922 "Causa algum  ou conjunto de efeitos
+sobre alguma circunstancia.
+Seu uso possui custos"
+  xyzwh 442 473 2005 116 79
+note 130178 "É uma magia ampliada.
+So pode ser removida do array sob alguma condição"
+  xyzwh 582 475 2000 85 115
+classcanvas 130434 class_ref 129922 // Efeito
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 74 369 2000
+end
+note 130562 "Efeito carrega um valor a ser atribuito a uma propriedade.
+Ele interfere direto no comportamento fisico do Actor"
+  xyzwh 51 418 2000 84 105
+classcanvas 130690 class_ref 130050 // Rule
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 353 275 2000
+end
+note 130939 "Sensor disparado por uma ação"
+  xyzwh 676 859 2000 129 54
+classcanvas 130946 class_ref 130178 // Dano
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 182 370 2000
+end
+classcanvas 131586 class_ref 130306 // Ambient
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 164 619 2000
+end
+classcanvas 131714 class_ref 130434 // Area
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 309 714 2000
+end
+fragment 131835 "api do host"
+  xyzwh 442 603 1994 380 439
+end
+note 131970 "Dano é uma variante do efeito q afeta a HP"
+  xyzwh 166 417 2005 76 93
+fragment 132219 "posicionamento no mapa"
+  xyzwh 19 603 1994 409 488
+end
+classcanvas 132987 class_ref 130811 // Mapa
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 49 714 2000
+end
+classcanvas 133755 class_ref 131963 // Sensor
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 505 714 2000
+end
+classcanvas 134011 class_ref 131963 // Sensor
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 83 276 2000
+end
+classcanvas 134267 class_ref 133115 // Action
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_infonote default shadow default show_stereotype_properties default
+  xyz 564 279 2000
+end
+note 134651 "Possiveis atribuições de sensores e rules:
+Sensor de proximidade + Sensor de animação
+Os sensores geram saidas cada Rule tem uma entrada generica e duas saidas logicas.(true/false)
+Rule compara uma unica expressao, 
+"
+  xyzwh 581 638 2000 206 157
+relationcanvas 128898 relation_ref 129410 // <generalisation>
+  from ref 128002 z 1999 to ref 128770
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129154 relation_ref 129538 // <generalisation>
+  from ref 129026 z 1999 to ref 128770
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129282 relation_ref 129666 // <unidirectional association>
+  from ref 128130 z 1999 to ref 128514
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129666 relation_ref 129794 // <generalisation>
+  from ref 129538 z 1999 to ref 129410
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130818 relation_ref 129922 // <unidirectional association>
+  from ref 128770 z 1999 to ref 128130
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 131074 relation_ref 130050 // <generalisation>
+  from ref 130946 z 1999 to ref 130434
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 131202 relation_ref 130178 // <unidirectional association>
+  from ref 130434 z 1999 to ref 130690
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 131330 relation_ref 130306 // <unidirectional association>
+  from ref 129410 z 1999 to point 496 348
+  line 131842 z 1999 to ref 130690
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 133115 relation_ref 128123 // <generalisation>
+  from ref 132987 z 1999 to ref 131714
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 133499 relation_ref 129531 // <unidirectional association>
+  from ref 131714 z 1999 to ref 131586
+  role_a_pos 230 645 3000 no_role_b
+  multiplicity_a_pos 230 670 3000 no_multiplicity_b
+end
+relationcanvas 133627 relation_ref 129659 // <unidirectional association>
+  from ref 132987 z 1999 to ref 131586
+  role_a_pos 78 632 3000 no_role_b
+  multiplicity_a_pos 150 657 3000 no_multiplicity_b
+end
+relationcanvas 133883 relation_ref 129787 // <unidirectional association>
+  from ref 131714 z 1999 to ref 133755
+  role_a_pos 460 715 3000 no_role_b
+  multiplicity_a_pos 478 740 3000 no_multiplicity_b
+end
+relationcanvas 134395 relation_ref 131067 // <directional aggregation>
+  from ref 130690 z 1999 to ref 134267
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 134523 relation_ref 131195 // <directional aggregation>
+  from ref 134011 z 1999 to ref 130690
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+line 128507 -_-_
+  from ref 131970 z 1999 to ref 130946
+line 128635 -_-_
+  from ref 130562 z 1999 to ref 130434
+line 128891 -_-_
+  from ref 128763 z 1999 to ref 131714
+line 130050 -_-_
+  from ref 129922 z 1999 to ref 129410
+line 130306 -_-_
+  from ref 130178 z 1999 to ref 129538
+end
