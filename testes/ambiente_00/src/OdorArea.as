@@ -59,6 +59,7 @@ package
 
 		static public function draw(g:Graphics):void {
 			//g.lineStyle( 1,0x00ff00, .02);
+			g.clear();
 			g.lineStyle( 0,0x00ff00, 0);
 			var o:OdorArea;
 			var y:int=0;
