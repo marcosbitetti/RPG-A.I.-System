@@ -4,6 +4,10 @@ package
 	import flash.events.*;
 	import flash.geom.*;
 
+	import math.*;
+
+	//TODO: implementar lista ligada de particulas
+	//TODO: implementar uma marcação de vetor das duas particculas mais fortes
 	public class OdorArea
 	{
 		public var rec:Rectangle;

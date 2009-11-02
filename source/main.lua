@@ -59,3 +59,37 @@ areas = {
 clima = Clima()
 
 print( clima )
+
+print( "Testando acesso à banco de dados" )
+--db = SQLite.new("app.sqlite")
+db = SQLite.getMainDatabase()
+
+print (db)
+print( "db.sqlite_version", db.sqlite_version )
+
+print("Tabela cenario")
+stm = db:query("SELECT * FROM cenario")
+row = stm:fetch()
+while row do
+	print( row.id, row.nome )
+	row = stm:fetch()
+end
+
+print("Tabela cenario de novo (reset)")
+stm:reset()
+row = stm:fetch()
+while row do
+	print( row.id, row.nome )
+	row = stm:fetch()
+end
+
+
+print("Tabela codigo")
+stm = db:query("SELECT * FROM codigo")
+row = stm:fetch()
+while row do
+	print( row.id, row.nome, row.codigo, row.cenario_id )
+	row = stm:fetch()
+end
+
+

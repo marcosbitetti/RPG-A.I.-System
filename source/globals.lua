@@ -44,3 +44,6 @@ require('terreno/clima')
 	Logica
 --]]---------------------
 require('logic/rule')
+
+
+

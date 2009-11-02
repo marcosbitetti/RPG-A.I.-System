@@ -11,6 +11,9 @@ Seus pontos de entrada e saída de informação estão separados à parte do nú
 
 Enjoy
 
+To execute this one, go to source folder and run: $:../sqlua
+Automatic soft load main.lua
+
 Idealizador/programador: Marcos Augusto Bitetti
 
 Dependências usadas no projeto:
