@@ -60,6 +60,8 @@ clima = Clima()
 
 print( clima )
 
+
+--[[
 print( "Testando acesso à banco de dados" )
 --db = SQLite.new("app.sqlite")
 db = SQLite.getMainDatabase()
@@ -74,6 +76,7 @@ while row do
 	print( row.id, row.nome )
 	row = stm:fetch()
 end
+
 
 print("Tabela cenario de novo (reset)")
 stm:reset()
@@ -92,4 +95,29 @@ while row do
 	row = stm:fetch()
 end
 
+]]--
 
+
+b = Boid()
+b:tick()
+
+--[[
+	Passo de simulacao de aplicacao completa
+]]--
+
+--mainFunc -- funcao de loop
+function _mainFunc()
+	
+end
+
+
+--loop principal - Dispara n interações do sistema
+print("loop principal")
+interacoes = 1000
+while interacoes>0 do
+	interacoes = interacoes - 1
+	_mainFunc()
+end
+
+a = {1,4,3}
+print(a[2])

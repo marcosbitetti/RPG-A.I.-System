@@ -46,4 +46,10 @@ require('terreno/clima')
 require('logic/rule')
 
 
+--[[---------------------	Personagens/Animais
+--]]---------------------
+require('runtime/personagens/animals/boid')
+
+
+
 
